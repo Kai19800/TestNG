@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Method Based Execution">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/kdc27/IdeaProjects/Batch13_TestNG_Basics/src/test/java/Assertions/Priority.java">
+<classes>
+    <class name="Assertions.Priority">
+        <methods>
+            <include name="FirstTest"></include>
+            <include name="SecondTest"></include>
+            <include name="ThirdTest"></include>
+            <include name="FourthTest"></include>
+        </methods>
+    </class>
+    <class name="Assertions.enableDisable">
+        <methods>
+            <include name="ThirdTest"></include>
+            <exclude name="SecondTest"></exclude>
+        </methods>
+    </class>
+</classes>
+    </test>
+</suite>

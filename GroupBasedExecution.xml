@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group Based Execution">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/kdc27/IdeaProjects/Batch13_TestNG_Basics/src/test/java/Assertions/dependsON.java">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="Assertions"></package>
+            <package name="Annotations"></package>
+        </packages>
+    </test>
+</suite>

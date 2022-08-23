@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Class Based Execution">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/kdc27/IdeaProjects/Batch13_TestNG_Basics/src/test/java/Assertions/enableDisable.java">
+        <classes>
+            <class name="Assertions.enableDisable"></class>
+            <class name="Annotations.TestNG_Annotations"></class>
+            <class name="Annotations.AnnotationsExample"></class>
+        </classes>
+    </test>
+</suite>

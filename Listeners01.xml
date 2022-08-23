@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="DataProvidersAndListeners.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/kdc27/IdeaProjects/Batch13_TestNG_Basics/src/test/java/DataProvidersAndListeners">
+        <classes>
+            <class name="Assertions.hardAssertions"></class>
+        </classes>
+    </test>
+</suite>
